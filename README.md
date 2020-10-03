@@ -1,1 +1,1 @@
-# 3DQ5
+ECE 3DQ5 labs and projects repository.

@@ -1,0 +1,144 @@
+-- PS2_to_LCD_ROM.mif
+
+WIDTH = 8;
+DEPTH = 512;
+ADDRESS_RADIX = HEX;
+DATA_RADIX = HEX;
+CONTENT BEGIN
+	000 : 20;
+	001 : FF; -- F9
+	002 : FF;
+	003 : FF; -- F5
+	004 : FF; -- F3
+	005 : FF; -- F1
+	006 : FF; -- F2
+	007 : FF; -- F12
+	008 : FF; 
+	009 : FF; -- F11
+	00A : FF; -- F8
+	00B : FF; -- F6
+	00C : FF; -- F4
+	00D : FF; -- tab
+	00E : 60; -- `
+	00F : FF; 
+	010 : FF; 
+	011 : FF; -- left alt
+	012 : FF; -- left shift
+	013 : FF; 
+	014 : FF; -- left ctrl
+	015 : 71; -- q
+	016 : FF; -- 1
+	017 : FF; 
+	018 : FF; 
+	019 : FF; 
+	01A : 7A; -- z
+	01B : 73; -- s
+	01C : 61; -- a
+	01D : 77; -- w
+	01E : FF; -- 2
+	01F : FF; 
+	020 : FF; 
+	021 : 63; -- c
+	022 : 78; -- x
+	023 : 64; -- d
+	024 : 65; -- e
+	025 : FF; -- 4
+	026 : FF; -- 3
+	027 : FF; 
+	028 : FF; 
+	029 : 20; -- space
+	02A : 76; -- v
+	02B : 66; -- f
+	02C : 74; -- t
+	02D : 72; -- r
+	02E : FF; -- 5
+	02F : FF; 
+	030 : FF; 
+	031 : 6E; -- n
+	032 : 62; -- b
+	033 : 68; -- h
+	034 : 67; -- g
+	035 : 79; -- y
+	036 : FF; -- 6
+	037 : FF; 
+	038 : FF; 
+	039 : FF; 
+	03A : 6D; -- m
+	03B : 6A; -- j
+	03C : 75; -- u
+	03D : FF; -- 7
+	03E : FF; -- 8
+	03F : FF; 
+	040 : FF; 
+	041 : 2C; -- ,
+	042 : 6B; -- k
+	043 : 69; -- i
+	044 : 6F; -- o
+	045 : FF; -- 0
+	046 : FF; -- 9
+	047 : FF; 
+	048 : FF; 
+	049 : 2E; -- .
+	04A : 2F; -- /
+	04B : 6C; -- l
+	04C : 3B; -- ;
+	04D : 70; -- p
+	04E : 2D; -- -
+	04F : FF; 
+	050 : FF; 
+	051 : FF; 
+	052 : 27; -- '
+	053 : FF; 
+	054 : 5B; -- [
+	055 : 3D; -- =
+	056 : FF; 
+	057 : FF; 
+	058 : FF; 
+	059 : FF; -- right shift
+	05A : FF; -- enter
+	05B : 5D; -- ]
+	05C : FF; 
+	05D : FF; -- "\"
+	05E : FF; 
+	05F : FF; 
+	060 : FF; 
+	061 : FF; 
+	062 : FF; 
+	063 : FF; 
+	064 : FF; 
+	065 : FF; 
+	066 : FF; -- backspace
+	067 : FF; 
+	068 : FF; 
+	069 : 31; -- keypad 1
+	06A : FF; 
+	06B : 34; -- keypad 4
+	06C : 37; -- keypad 7
+	06D : FF; 
+	06E : FF; 
+	06F : FF; 
+	070 : 30; -- keypad 0
+	071 : 2E; -- keypad .
+	072 : 32; -- keypad 2
+	073 : 35; -- keypad 5
+	074 : 36; -- keypad 6
+	075 : 38; -- keypad 8
+	076 : FF; -- ESC
+	077 : FF; -- num lock
+	078 : FF; -- F11
+	079 : 2B; -- keypad +
+	07A : 33; -- keypad 3
+	07B : 2D; -- keypad -
+	07C : 2A; -- keypad *
+	07D : 39; -- keypad 9
+	07E : FF; 
+	07F : FF; 
+	080 : FF; 
+	081 : FF; 
+	082 : FF; 
+	083 : FF; -- F7
+	[084..0FF] : FF; 
+-- For shift
+	[100..1FF] : FF; 
+END
+

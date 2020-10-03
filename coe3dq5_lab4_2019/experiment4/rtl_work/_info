@@ -1,0 +1,123 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Lily\Desktop\ENG_3DQ5\coe3dq5_lab4_2019\experiment4
+vexperiment4
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z2 Ii4]1ageK<CbHB[h2G=onf1
+Z3 VX;_iHMZoTdfj0SiM?ImTi2
+S1
+Z4 dC:\Users\Lily\Desktop\ENG_3DQ5\coe3dq5_lab4_2019\experiment4
+Z5 w1570132824
+Z6 8experiment4.v
+Z7 Fexperiment4.v
+L0 15
+Z8 OV;L;10.1b;51
+r1
+31
+Z9 o-sv -work rtl_work -O0
+Z10 !s92 -sv -work rtl_work +define+DISABLE_DEFAULT_NET -O0
+!i10b 1
+Z11 !s100 5Ga9?i^5P<>a4;f9fg>je0
+Z12 !s105 experiment4_v_unit
+!s85 0
+Z13 !s108 1570292468.961000
+Z14 !s107 experiment4.v|
+Z15 !s90 -reportprogress|300|-sv|-work|rtl_work|+define+DISABLE_DEFAULT_NET|experiment4.v|
+!s101 -O0
+vSRAM_BIST
+R1
+Z16 IQO>MS4UL63`1kNE<4NiR61
+Z17 Vb<lH<:ETfiOkmK@JZK3?e1
+S1
+R4
+Z18 w1570292457
+Z19 8SRAM_BIST.v
+Z20 FSRAM_BIST.v
+L0 15
+R8
+r1
+31
+R9
+Z21 n@s@r@a@m_@b@i@s@t
+Z22 !s100 Io@^0ETeDVo`PLM7DS`bP2
+Z23 !s105 SRAM_BIST_v_unit
+Z24 !s108 1570292467.910000
+Z25 !s107 SRAM_BIST.v|
+Z26 !s90 -reportprogress|300|-sv|-work|rtl_work|+define+DISABLE_DEFAULT_NET|SRAM_BIST.v|
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vSRAM_Controller
+R1
+Z27 I7L329XK2C1WBhkb_`?TDB2
+Z28 V5XU>4eb<gERPb=4VPDB<`1
+S1
+R4
+Z29 w1567310400
+Z30 8SRAM_Controller.v
+Z31 FSRAM_Controller.v
+L0 17
+R8
+r1
+31
+R9
+Z32 n@s@r@a@m_@controller
+Z33 !s100 8`ZBJ@geg5SMJAR5Ig8c50
+Z34 !s105 SRAM_Controller_v_unit
+Z35 !s108 1570292468.230000
+Z36 !s107 SRAM_Controller.v|
+Z37 !s90 -reportprogress|300|-sv|-work|rtl_work|+define+DISABLE_DEFAULT_NET|+define+SIMULATION|SRAM_Controller.v|
+Z38 !s92 -sv -work rtl_work +define+DISABLE_DEFAULT_NET +define+SIMULATION -O0
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_experiment4
+R1
+!i10b 1
+!s100 lOBiU;55H@MGSM?_VXP=n0
+IN@eFKO;Q:>KN>gCQWWL0n0
+VW6V_FIB`:gXXV>a8oSK3l2
+!s105 tb_experiment4_v_unit
+S1
+R4
+R29
+8tb_experiment4.v
+Ftb_experiment4.v
+L0 15
+R8
+r1
+!s85 0
+31
+!s108 1570292469.225000
+!s107 tb_experiment4.v|
+!s90 -reportprogress|300|-sv|-work|rtl_work|+define+DISABLE_DEFAULT_NET|tb_experiment4.v|
+!s101 -O0
+R9
+R10
+vtb_SRAM_Emulator
+R1
+Z39 I002YMFZnJd_<0V`kQJzY]3
+Z40 VNkgVPB?UIlEH1V^fa`:cl2
+S1
+R4
+R29
+Z41 8tb_SRAM_Emulator.v
+Z42 Ftb_SRAM_Emulator.v
+L0 16
+R8
+r1
+31
+R9
+R10
+Z43 ntb_@s@r@a@m_@emulator
+Z44 !s100 [9M>=8cY7LzdzjUJUa8Hm3
+Z45 !s105 tb_SRAM_Emulator_v_unit
+Z46 !s108 1570292468.616000
+Z47 !s107 tb_SRAM_Emulator.v|
+Z48 !s90 -reportprogress|300|-sv|-work|rtl_work|+define+DISABLE_DEFAULT_NET|tb_SRAM_Emulator.v|
+!i10b 1
+!s85 0
+!s101 -O0

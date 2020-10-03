@@ -1,0 +1,198 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Lily\Desktop\ENG_3DQ5\coe3dq5_lab5_2019\experiment2b
+vexperiment2b
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z2 DXx4 work 19 experiment2b_v_unit 0 22 HbOLbkUI?=B2[GO6@QgbE3
+Z3 VjalOGZj^m9kmzcB?I]Ve71
+r1
+31
+Z4 I5EI0chPXJ6=4AZnUZ5Dk`2
+S1
+Z5 dC:\Users\Lily\Desktop\ENG_3DQ5\coe3dq5_lab5_2019\experiment2b
+Z6 w1570566295
+Z7 8experiment2b.v
+Z8 Fexperiment2b.v
+L0 21
+Z9 OV;L;10.1b;51
+Z10 !s108 1570821345.707000
+Z11 !s107 define_state.h|experiment2b.v|
+Z12 !s90 -reportprogress|300|-sv|-work|rtl_work|+define+DISABLE_DEFAULT_NET|experiment2b.v|
+Z13 o-sv -work rtl_work -O0
+Z14 !s92 -sv -work rtl_work +define+DISABLE_DEFAULT_NET -O0
+!s85 0
+!i10b 1
+Z15 !s100 jD1Kfo<gBU^E?5^a5MMbc2
+Z16 !s105 experiment2b_v_unit
+!s101 -O0
+Xexperiment2b_v_unit
+R1
+Z17 VHbOLbkUI?=B2[GO6@QgbE3
+r1
+31
+Z18 IHbOLbkUI?=B2[GO6@QgbE3
+S1
+R5
+R6
+R7
+R8
+Z19 Fdefine_state.h
+L1 5
+R9
+R10
+R11
+R12
+R13
+R14
+!s85 0
+!i10b 1
+Z20 !s100 e6Mjz6_5n1H1ACBAXDLkd1
+!i103 1
+!s101 -O0
+vPB_Controller
+R1
+Z21 IkIe^33MdP]YfnbRnLFM3[1
+Z22 VbkQg5OY7K?YWT1G8j2Pbi0
+S1
+R5
+Z23 w1567310400
+Z24 8PB_Controller.v
+Z25 FPB_Controller.v
+L0 15
+R9
+r1
+31
+R13
+R14
+Z26 n@p@b_@controller
+Z27 !s100 ib8b?ilZFU0NiHB_9GEXl0
+Z28 !s105 PB_Controller_v_unit
+Z29 !s108 1570821344.980000
+Z30 !s107 PB_Controller.v|
+Z31 !s90 -reportprogress|300|-sv|-work|rtl_work|+define+DISABLE_DEFAULT_NET|PB_Controller.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vSRAM_Controller
+R1
+Z32 I7L329XK2C1WBhkb_`?TDB2
+Z33 V5XU>4eb<gERPb=4VPDB<`1
+S1
+R5
+R23
+Z34 8SRAM_Controller.v
+Z35 FSRAM_Controller.v
+L0 17
+R9
+r1
+31
+R13
+Z36 n@s@r@a@m_@controller
+Z37 !s100 8`ZBJ@geg5SMJAR5Ig8c50
+Z38 !s105 SRAM_Controller_v_unit
+Z39 !s108 1570821345.292000
+Z40 !s107 SRAM_Controller.v|
+Z41 !s90 -reportprogress|300|-sv|-work|rtl_work|+define+DISABLE_DEFAULT_NET|+define+SIMULATION|SRAM_Controller.v|
+Z42 !s92 -sv -work rtl_work +define+DISABLE_DEFAULT_NET +define+SIMULATION -O0
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_experiment2b
+R1
+DXx4 work 22 tb_experiment2b_v_unit 0 22 18YVKG?EKXGh]0g34Z^=:1
+V4PC;4QgEFC4dS3Y]MV4eA2
+r1
+!s85 0
+31
+!i10b 1
+!s100 ?>;UCA9KgaR1@RG8fG:AN3
+IWmPl<H7XC?o6i?;Oh80fz2
+!s105 tb_experiment2b_v_unit
+S1
+R5
+R23
+Z43 8tb_experiment2b.v
+Z44 Ftb_experiment2b.v
+L0 19
+R9
+Z45 !s108 1570821346.158000
+Z46 !s107 define_state.h|tb_experiment2b.v|
+Z47 !s90 -reportprogress|300|-sv|-work|rtl_work|+define+DISABLE_DEFAULT_NET|tb_experiment2b.v|
+!s101 -O0
+R13
+R14
+Xtb_experiment2b_v_unit
+R1
+V18YVKG?EKXGh]0g34Z^=:1
+r1
+!s85 0
+31
+!i10b 1
+!s100 [A736e5[DZLbU<Y@3f_an1
+I18YVKG?EKXGh]0g34Z^=:1
+!i103 1
+S1
+R5
+R23
+R43
+R44
+R19
+L1 5
+R9
+R45
+R46
+R47
+!s101 -O0
+R13
+R14
+vtb_SRAM_Emulator
+R1
+Z48 I002YMFZnJd_<0V`kQJzY]3
+Z49 VNkgVPB?UIlEH1V^fa`:cl2
+S1
+R5
+R23
+Z50 8tb_SRAM_Emulator.v
+Z51 Ftb_SRAM_Emulator.v
+L0 16
+R9
+r1
+31
+R13
+R14
+Z52 ntb_@s@r@a@m_@emulator
+Z53 !s100 [9M>=8cY7LzdzjUJUa8Hm3
+Z54 !s105 tb_SRAM_Emulator_v_unit
+Z55 !s108 1570821345.478000
+Z56 !s107 tb_SRAM_Emulator.v|
+Z57 !s90 -reportprogress|300|-sv|-work|rtl_work|+define+DISABLE_DEFAULT_NET|tb_SRAM_Emulator.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vVGA_Controller
+R1
+Z58 Il^h_6;J8Bh>n_<YfA02;?0
+Z59 V;HD9mML4T9E_1=05H1:nz0
+S1
+R5
+R23
+Z60 8VGA_Controller.v
+Z61 FVGA_Controller.v
+Z62 FVGA_Param.h
+L0 16
+R9
+r1
+31
+R13
+Z63 n@v@g@a_@controller
+Z64 !s100 LhVazT3F68@[GJSSnA3Y:2
+Z65 !s105 VGA_Controller_v_unit
+Z66 !s108 1570821344.580000
+Z67 !s107 VGA_Param.h|VGA_Controller.v|
+Z68 !s90 -reportprogress|300|-sv|-work|rtl_work|+define+DISABLE_DEFAULT_NET|VGA_Controller.v|
+R14
+!i10b 1
+!s85 0
+!s101 -O0
